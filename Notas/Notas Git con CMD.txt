@@ -1,0 +1,17 @@
+Notas Git con CMD
+
+
+
+git config
+
+		--global
+			user.name
+			user.mail
+
+
+
+git status
+
+git diff
+
+git add
