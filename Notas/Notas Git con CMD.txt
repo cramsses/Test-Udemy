@@ -47,7 +47,16 @@ git pull repositorio(origin) branch
 
 #Ver historial
 git log
+		#Muestra mas info
+		--decorate
 
 --------------------------
 
+#Ver ramas
+git branch
 
+#Crear
+git branch <nombre rama>
+
+#Cambiar rama
+git checkout <nombre rama>
