@@ -1,14 +1,12 @@
 Notas Git con CMD
 
-
+Con GITBASH
 
 git config
 
 		--global
 			user.name
 			user.mail
-
-
 
 git status
 
@@ -58,5 +56,38 @@ git branch
 #Crear
 git branch <nombre rama>
 
+
 #Cambiar rama
 git checkout <nombre rama>
+		-b ->cambiar y crea nuevo
+
+
+-----------------------------
+#Cerrar branch
+git merge
+
+--------------------------
+#Conflictos
+git merge muestra que hay conflicto, se corrige.
+GIT indica donde esta el conflicto con respecto a los dos branchs
+	git status 	-> debe marcar como modificados ambos acrhivos
+	git add 	-> 
+	git commit	->
+
+
+-------------------------
+#Eliminar ramas después de integrar
+git branch -d branch-name
+			-d  -> comprueba que la rama esté integrada a master
+			-D 	->  forza el borrado
+
+NOTA: Al borrar la rama quita de la lista la rama. 
+
+#Recolector de basura
+git gc
+
+
+#Enmendar al último commit (SIN PUSH)
+git commit --amend
+
+
