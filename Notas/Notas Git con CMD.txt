@@ -1,0 +1,62 @@
+Notas Git con CMD
+
+
+
+git config
+
+		--global
+			user.name
+			user.mail
+
+
+
+git status
+
+git diff
+
+git add
+
+
+git commit 
+		-m "Mensaje"
+
+
+#Revertir cambios
+git reset 
+		--soft HEAD~1
+
+
+#Subir a mi cuenta de github
+git push repositorio(origin) branch
+
+	ejemplo
+		git push origin cambiar-color-fondo
+
+
+#Ver remotos
+git remote
+			-v
+
+
+-------------------------------------
+
+Para sincronizar (actualizar)
+
+#Descargar desde cuenta de github
+git pull repositorio(origin) branch
+
+#Ver historial
+git log
+		#Muestra mas info
+		--decorate
+
+--------------------------
+
+#Ver ramas
+git branch
+
+#Crear
+git branch <nombre rama>
+
+#Cambiar rama
+git checkout <nombre rama>
